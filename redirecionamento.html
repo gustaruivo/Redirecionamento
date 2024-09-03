@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=https://example.com/redirect.html">
+    <title>Redirecionamento Aleatório</title>
+    <script>
+        // Lista de links do WhatsApp
+        const links = [
+            "https://wa.me/numero1",
+            "https://wa.me/numero2",
+            "https://wa.me/numero3"
+        ];
+
+        // Seleciona um link aleatório
+        const randomLink = links[Math.floor(Math.random() * links.length)];
+
+        // Redireciona para o link selecionado
+        window.location.href = randomLink;
+    </script>
+</head>
+<body>
+</body>
+</html>
